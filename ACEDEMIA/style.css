@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#clip{
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+@media(max-width: 767px){
+    #clip{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+/* ##################3 divs hover #################### */
+.hover-div:hover {
+    background-color: #1eb2a6;
+    color: white;
+}
+.hover-div:hover i,
+.hover-div:hover p{
+ 
+    color: white;
+}
+
+.main-course-div .hover-course:hover{
+    color: white;
+    background-color: #1eb2a6;
+}
+.main-course-div .hover-course:hover i{
+    color: white;
+   
+}
+
+
+/* ############### email placeholder ############ */
+
+.emailholder::placeholder{
+    color: white;
+}
